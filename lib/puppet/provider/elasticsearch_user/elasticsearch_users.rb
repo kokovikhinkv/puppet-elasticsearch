@@ -1,4 +1,4 @@
-require 'puppet/provider/elastic_user_command'
+require_relative 'puppet/provider/elastic_user_command'
 
 Puppet::Type.type(:elasticsearch_user).provide(
   :elasticsearch_users,
